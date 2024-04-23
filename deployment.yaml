@@ -15,5 +15,5 @@ spec:
         app: pema-deploy
     spec:
       containers:
-      - image: kezangyuden/pemac:18
+      - image: kezangyuden/pemac:22
         name: pet
