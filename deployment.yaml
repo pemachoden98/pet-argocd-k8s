@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   labels:
-    app: pet-deploy
+    app: pema-deploy
   name: pema-deploy
 spec:
   replicas: 2
