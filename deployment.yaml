@@ -3,17 +3,17 @@ kind: Deployment
 metadata:
   labels:
     app: pet-deploy
-  name: pet-deploy
+  name: pema-deploy
 spec:
   replicas: 2
   selector:
     matchLabels:
-      app: pet-deploy
+      app: pema-deploy
   template:
     metadata:
       labels:
-        app: pet-deploy
+        app: pema-deploy
     spec:
       containers:
-      - image: cloudsihmar/newpet:13
+      - image: kezangyuden/pemac:latest
         name: pet
